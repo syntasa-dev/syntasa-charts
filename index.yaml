@@ -1,0 +1,55 @@
+apiVersion: v1
+entries:
+  syntasa:
+  - apiVersion: v2
+    appVersion: "7.1"
+    created: "2023-08-01T21:56:42.749432652Z"
+    description: Helm Chart for SYNTASA Customer Intelligence Platform for Google
+      Marketplace
+    digest: c6562c64c894163b31da90f1ac1709dc9457db0195ba57b5ccf97dd9d461d723
+    home: https://www.syntasa.com/
+    icon: https://www.syntasa.com/wp-content/uploads/2018/01/SYN_Logo_Green.png
+    maintainers:
+    - email: kaushik.vinjamuri@syntasa.com
+      name: Kaushik Vinjamuri
+    - email: pradeepraj.chandrasekaran@syntasa.com
+      name: Pradeepraj Chandrasekaran
+    - email: sarath.botlagunta@syntasa.com
+      name: Sarath Botlagunta
+    - email: philip.crilley@syntasa.com
+      name: Philip Crilley
+    name: syntasa
+    sources:
+    - https://github.com/syntasa-dev/syntasa-google-marketplace-sentiment-anlytics
+    urls:
+    - https://github.com/syntasa-dev/syntasa-charts/releases/download/syntasa-7.1.2/syntasa-7.1.2.tgz
+    version: 7.1.2
+  syntasa-package:
+  - apiVersion: v2
+    appVersion: "7.1"
+    created: "2023-08-01T21:56:42.842710804Z"
+    dependencies:
+    - name: syntasa
+      repository: file://./charts/
+      version: 7.1.2
+    description: Helm Chart for SYNTASA Customer Intelligence Platform for Google
+      Marketplace
+    digest: 1c0e956ce5b6fcf66ef852d4e3a9622170849a68a5dac42d4c9023f1819d2b4e
+    home: https://www.syntasa.com/
+    icon: https://www.syntasa.com/wp-content/uploads/2018/01/SYN_Logo_Green.png
+    maintainers:
+    - email: kaushik.vinjamuri@syntasa.com
+      name: Kaushik Vinjamuri
+    - email: pradeepraj.chandrasekaran@syntasa.com
+      name: Pradeepraj Chandrasekaran
+    - email: sarath.botlagunta@syntasa.com
+      name: Sarath Botlagunta
+    - email: philip.crilley@syntasa.com
+      name: Philip Crilley
+    name: syntasa-package
+    sources:
+    - https://github.com/syntasa-dev/syntasa-google-marketplace-sentiment-anlytics
+    urls:
+    - https://github.com/syntasa-dev/syntasa-charts/releases/download/syntasa-package-7.1.2/syntasa-package-7.1.2.tgz
+    version: 7.1.2
+generated: "2023-08-01T21:56:42.842716004Z"
