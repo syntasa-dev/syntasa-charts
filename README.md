@@ -5,16 +5,22 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 
 Once Helm has been set up correctly, add the repo as follows:
 
-  helm repo add <alias> https://<orgname>.github.io/helm-charts
+  helm repo add syntasa-dev https://syntasa-dev.github.io/helm-charts
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo
-<alias>` to see the charts.
+syntasa-dev` to see the charts.
 
-To install the <chart-name> chart:
+To install the syntasa chart (GCP Marketplace):
 
-    helm install my-<chart-name> <alias>/<chart-name>
+    helm install syntasa syntasa-dev/syntasa
 
-To uninstall the chart:
+To install the syntasa-package chart:
 
-    helm delete my-<chart-name>
+    helm install syntasa syntasa-dev/syntasa-package
+
+To uninstall the charts:
+
+    helm uninstall syntasa
+
+    helm uninstall syntasa-package
