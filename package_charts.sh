@@ -1,1 +1,1 @@
-helm package charts/syntasa --destination charts/syntasa_packages/charts
+helm package charts/syntasa --destination charts/syntasa_package/charts
