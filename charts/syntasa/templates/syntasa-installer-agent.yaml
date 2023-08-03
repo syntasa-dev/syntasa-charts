@@ -65,8 +65,9 @@ metadata:
     product: {{ .Values.agent.name }}
   annotations:
     ingress.kubernetes.io/ssl-redirect: "true"
+    kubernetes.io/ingress.class: "haproxy"
 spec:
-  ingressClassName: haproxy
+  # ingressClassName: haproxy
   rules:
     - http:
         paths:

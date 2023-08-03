@@ -108,10 +108,12 @@ kind: Ingress
 metadata:
   name: {{ .Values.management.ingress.name }}
   namespace: {{ .Values.namespace }}
+  annotations:
+    kubernetes.io/ingress.class: "haproxy"
   labels:
     run: {{ .Values.management.service.name }}
 spec:
-  ingressClassName: haproxy
+  # ingressClassName: haproxy
   rules:
     - http:
         paths:
