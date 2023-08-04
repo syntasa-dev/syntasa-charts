@@ -24,6 +24,29 @@ entries:
     urls:
     - https://github.com/syntasa-dev/syntasa-charts/releases/download/syntasa-7.1.2/syntasa-7.1.2.tgz
     version: 7.1.2
+  - apiVersion: v2
+    appVersion: "7.1"
+    created: "2023-08-04T12:42:23.199221715Z"
+    description: Helm Chart for SYNTASA Customer Intelligence Platform for Google
+      Marketplace
+    digest: 67a6ad603ffcda5374efb6937972735d38494abda1851463fe17a980951fbc3a
+    home: https://www.syntasa.com/
+    icon: https://www.syntasa.com/wp-content/uploads/2018/01/SYN_Logo_Green.png
+    maintainers:
+    - email: kaushik.vinjamuri@syntasa.com
+      name: Kaushik Vinjamuri
+    - email: pradeepraj.chandrasekaran@syntasa.com
+      name: Pradeepraj Chandrasekaran
+    - email: sarath.botlagunta@syntasa.com
+      name: Sarath Botlagunta
+    - email: philip.crilley@syntasa.com
+      name: Philip Crilley
+    name: syntasa
+    sources:
+    - https://github.com/syntasa-dev/syntasa-google-marketplace-sentiment-anlytics
+    urls:
+    - https://github.com/syntasa-dev/syntasa-charts/releases/download/syntasa-7.1.2-test/syntasa-7.1.2-test.tgz
+    version: 7.1.2-test
   syntasa-package:
   - apiVersion: v2
     appVersion: "7.1"
@@ -52,4 +75,27 @@ entries:
     urls:
     - https://github.com/syntasa-dev/syntasa-charts/releases/download/syntasa-package-7.1.2/syntasa-package-7.1.2.tgz
     version: 7.1.2
-generated: "2023-08-01T21:56:42.842716004Z"
+  - apiVersion: v2
+    appVersion: "7.1"
+    created: "2023-08-04T12:42:23.442684831Z"
+    description: Helm Chart for SYNTASA Customer Intelligence Platform for Google
+      Marketplace
+    digest: c150f6cbbec56e7d16ea3d7fddcb91fe7e3081c616de04b9bb130f35adeb1269
+    home: https://www.syntasa.com/
+    icon: https://www.syntasa.com/wp-content/uploads/2018/01/SYN_Logo_Green.png
+    maintainers:
+    - email: kaushik.vinjamuri@syntasa.com
+      name: Kaushik Vinjamuri
+    - email: pradeepraj.chandrasekaran@syntasa.com
+      name: Pradeepraj Chandrasekaran
+    - email: sarath.botlagunta@syntasa.com
+      name: Sarath Botlagunta
+    - email: philip.crilley@syntasa.com
+      name: Philip Crilley
+    name: syntasa-package
+    sources:
+    - https://github.com/syntasa-dev/syntasa-google-marketplace-sentiment-anlytics
+    urls:
+    - https://github.com/syntasa-dev/syntasa-charts/releases/download/syntasa-package-7.1.2-test/syntasa-package-7.1.2-test.tgz
+    version: 7.1.2-test
+generated: "2023-08-04T12:42:23.44269693Z"
