@@ -1,6 +1,6 @@
 apiVersion: v2
 name: syntasa
-version: 7.1.2
+version: 7.1.2-test
 appVersion: "7.1"
 description: Helm Chart for SYNTASA Customer Intelligence Platform for Google Marketplace
 home: https://www.syntasa.com/
