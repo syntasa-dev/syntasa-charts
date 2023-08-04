@@ -2,6 +2,29 @@ apiVersion: v1
 entries:
   syntasa:
   - apiVersion: v2
+    appVersion: "7.2"
+    created: "2023-08-04T18:29:47.816399888Z"
+    description: Helm Chart for SYNTASA Customer Intelligence Platform for Google
+      Marketplace
+    digest: a36946329824024e2e8208be4dfe97e6644c34d35c1951cc8f29dee494533b44
+    home: https://www.syntasa.com/
+    icon: https://www.syntasa.com/wp-content/uploads/2018/01/SYN_Logo_Green.png
+    maintainers:
+    - email: kaushik.vinjamuri@syntasa.com
+      name: Kaushik Vinjamuri
+    - email: pradeepraj.chandrasekaran@syntasa.com
+      name: Pradeepraj Chandrasekaran
+    - email: sarath.botlagunta@syntasa.com
+      name: Sarath Botlagunta
+    - email: philip.crilley@syntasa.com
+      name: Philip Crilley
+    name: syntasa
+    sources:
+    - https://github.com/syntasa-dev/syntasa-google-marketplace-sentiment-anlytics
+    urls:
+    - https://github.com/syntasa-dev/syntasa-charts/releases/download/syntasa-7.2.0/syntasa-7.2.0.tgz
+    version: 7.2.0
+  - apiVersion: v2
     appVersion: "7.1"
     created: "2023-08-01T21:56:42.749432652Z"
     description: Helm Chart for SYNTASA Customer Intelligence Platform for Google
@@ -98,4 +121,4 @@ entries:
     urls:
     - https://github.com/syntasa-dev/syntasa-charts/releases/download/syntasa-package-7.1.2-test/syntasa-package-7.1.2-test.tgz
     version: 7.1.2-test
-generated: "2023-08-04T12:42:23.44269693Z"
+generated: "2023-08-04T18:29:47.816419189Z"
