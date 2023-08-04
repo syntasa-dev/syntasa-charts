@@ -51,6 +51,9 @@ spec:
   ports:
     - port: {{ .Values.haproxy.service.port }}
       targetPort: {{ .Values.haproxy.service.targetPort }}
+    {{- if eq .Values.cloudProvider "aws" }}
+      nodePort: 32505
+    {{- end }}
   type: {{ .Values.haproxy.service.type }}
   {{- if .Values.haproxy.service.loadBalancerIP }}
   loadBalancerIP: {{ .Values.haproxy.service.loadBalancerIP }}
