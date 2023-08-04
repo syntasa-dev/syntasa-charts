@@ -25,7 +25,7 @@ spec:
           imagePullPolicy: "Always"
           args:
             - --configmap={{ .Values.namespace }}/syntasa-ingress-conf
-            - --default-ssl-certificate={{ .Values.namespace }}/sma-certs
+            - --default-ssl-certificate={{ .Values.namespace }}/{{ .Values.cert.name }}
           ports:
             {{- range .Values.haproxy.ports }}
             - name: {{ .name }}

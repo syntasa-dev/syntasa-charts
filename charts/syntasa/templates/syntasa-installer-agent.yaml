@@ -82,7 +82,7 @@ spec:
       host: {{ .Values.haproxy.service.loadBalancerHostname }}
 {{- end }}
   tls:
-    - secretName: {{ .Values.agent.ingress.tls.secretName }}
+    - secretName: {{ .Values.cert.name }}
       hosts:
       {{- if .Values.haproxy.service.loadBalancerHostname }}
         - {{ .Values.haproxy.service.loadBalancerHostname }}
