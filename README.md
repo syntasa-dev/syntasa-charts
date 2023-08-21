@@ -11,16 +11,10 @@ If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo
 syntasa-dev` to see the charts.
 
-To install the syntasa chart (GCP Marketplace):
+To install the syntasa chart:
 
     helm install syntasa syntasa-dev/syntasa
-
-To install the syntasa-package chart:
-
-    helm install syntasa syntasa-dev/syntasa-package
 
 To uninstall the charts:
 
     helm uninstall syntasa
-
-    helm uninstall syntasa-package
